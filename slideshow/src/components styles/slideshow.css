@@ -1,0 +1,23 @@
+.carousel-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+  }
+  
+  .carousel .slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
