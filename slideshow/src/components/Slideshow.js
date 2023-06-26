@@ -24,18 +24,6 @@ const Slideshow = () => {
       };
     }, [currentIndex, slideImages.length]);
   
-    const handlePrevSlide = () => {
-      const prevIndex = (currentIndex - 1 + slideImages.length) % slideImages.length;
-      setCurrentIndex(prevIndex);
-      carouselRef.current.select(prevIndex);
-    };
-  
-    const handleNextSlide = () => {
-      const nextIndex = (currentIndex + 1) % slideImages.length;
-      setCurrentIndex(nextIndex);
-      carouselRef.current.select(nextIndex);
-    };
-  
     const handleSlideChange = (index) => {
       setCurrentIndex(index);
     };
