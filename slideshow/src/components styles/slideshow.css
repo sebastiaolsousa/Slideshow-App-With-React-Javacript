@@ -1,3 +1,10 @@
+h1 {
+  background-color: rgba(0, 0, 255, 0.342);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 20px;
+}
+
 .carousel-wrapper {
     width: 100%;
     max-width: 600px;
@@ -7,6 +14,7 @@
   
   .carousel {
     position: relative;
+    border-radius: 10px;
   }
   
   .carousel .slide {
